@@ -1,1 +1,14 @@
-p {color: red;}
+#strucktureGrid {
+    display: grid; 
+    grid-template-rows: 10% 50% 15% 25%;
+}
+
+#navbar {
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
