@@ -1,6 +1,5 @@
 body {
   background-color: rgb(217, 184, 130);
-  /*rgb(217, 184, 130*/
 }
 
 #strucktureGrid {
@@ -55,6 +54,7 @@ body {
     background-color:rgb(254, 230, 134);
     font-family: inherit;
     margin: 0;
+    text-align: center;
   }
 
   .navbar a:hover, .dropDownMenu:hover .dropbtn {
@@ -109,6 +109,7 @@ body {
   background-color:rgb(254, 230, 134);
   font-family: inherit;
   margin: 0;
+  text-align: center;
 }
 .navbar a:hover, .dropDownMenu2:hover .dropbtn2 {
   background-color:rgb(254, 210, 60);
@@ -158,6 +159,7 @@ body {
   background-color:rgb(254, 230, 134);
   font-family: inherit;
   margin: 0;
+  text-align: center;
 }
 .navbar a:hover, .dropDownMenu3:hover .dropbtn3 {
   background-color:rgb(254, 210, 60);
@@ -207,6 +209,7 @@ body {
   background-color:rgb(254, 230, 134);
   font-family: inherit;
   margin: 0;
+  text-align: center;
 }
 .navbar a:hover, .dropDownMenu4:hover .dropbtn4 {
   background-color:rgb(254, 210, 60);
@@ -341,17 +344,58 @@ h2 {
 
 #hn1 {
   grid-column-start: 2;
+  grid-column-end: 3;
 }
 #hn2 {
   grid-column-start: 4;
+  grid-column-end: 5;
 }
 #hn3 {
   grid-column-start: 6;
+  grid-column-end: 7;
 }
 
+#artworkdisplay {
+  grid-row: 5;
+  display: grid;
+  grid-template-columns: 5% repeat(3 , 1fr 5%);
+}
 
+#img1 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  height: 25rem;
+  width: 25rem;
+}
 
+#img2 {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  height: 25rem;
+  width: 25rem;
+}
 
+#img3 {
+  grid-column-start: 6;
+  grid-row-start: 2;
+  height: 25rem;
+  width: 25rem;
+}
+
+footer {
+  grid-row: 6;
+  display: grid;
+  grid-template-columns:repeat(3 , 1fr);
+}
+
+#footertext {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  font-family: initial;
+  background-color: lawngreen;
+  margin: 1rem;
+}
 
 
 
